@@ -101,7 +101,7 @@ const UserPortal = () => {
                     <p className="text-sm text-slate-500 mb-8">Don't have an ID? Upload your medical report to generate your unique ALLVI ID and start tracking.</p>
                     
                     <button 
-                        onClick={() => navigate('/intake')}
+                        onClick={() => navigate('/register')}
                         className="w-full border-2 border-[#1F2937] text-[#1F2937] py-4 rounded-2xl font-black text-xs uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-[#1F2937] hover:text-white transition-all"
                     >
                         Register <ArrowRight size={16} />
