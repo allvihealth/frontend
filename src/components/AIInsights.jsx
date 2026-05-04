@@ -14,7 +14,7 @@ const AIInsights = ({ patientId, intake }) => {
                 setLoading(true);
                 const baseURL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
                     ? 'http://127.0.0.1:5000' 
-                    : 'https://allvibackend.onrender.com';
+                    : 'https://backend-dq26.onrender.com';
                 
                 const res = await axios.get(`${baseURL}/api/patient/insights/${patientId}`);
 
